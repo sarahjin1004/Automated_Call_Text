@@ -8,7 +8,6 @@ def translate_text(target, text):
     from google.cloud import translate_v2 as translate
 
     translate_client = translate.Client()
-    #translate_client = "automated-text-call-2f57570fd74e.json"
 
     if isinstance(text, six.binary_type):
         text = text.decode("utf-8")
@@ -18,6 +17,4 @@ def translate_text(target, text):
     result = translate_client.translate(text, target_language=target)
     return (result["input"], result["translatedText"], result["detectedSourceLanguage"])
     
-
-#translate_text("ko", "hello")
 
