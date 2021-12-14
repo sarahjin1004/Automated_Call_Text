@@ -7,8 +7,7 @@ sa = gspread.service_account(filename='service_account.json')
 
 import gspread
 
-
-sa = gspread.service_account()
+sa = gspread.service_account(filename='service_account.json')
 sh = sa.open("AutomatedSystem TestSheet")
 
 wks = sh.worksheet("Sheet1")
