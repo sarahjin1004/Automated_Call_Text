@@ -136,7 +136,7 @@ def translate_text(target, text):
     deteced_language = result["detectedSourceLanguage"]
     return translated
 
-t = translate_text("ko", "Type Y or N to confirm.")
+t = translate_text("ko","hello")
 print(t)
 #print(translate_text(languages["Korean"], "hello"))
     

@@ -53,7 +53,7 @@ for i in patient_data:
     m = patient_data[unique_id]["Message"]
     daytime = patient_data[unique_id]["Day/Time of Scheduling"]
     appointment_time = patient_data[unique_id]["Appointment Time"]
-    mess = "Hello "+first+" "+last+", \n"+"You have an appointment at Paul Hom Asian Clinic on "+daytime+" "+appointment_time+". Call 4088052770 to CANCEL or RESCHEDULE. \n"
+    mess = "Hello "+first+" "+last+", \n"+"You have an appointment at Paul Hom Asian Clinic on "+daytime+" "+appointment_time+". Call _____ to CANCEL or RESCHEDULE. \n"
     language = patient_data[unique_id]["Language"]
     lang_code = translate.languages(language)
     tr_mess = translate.translate_text(lang_code, mess)
