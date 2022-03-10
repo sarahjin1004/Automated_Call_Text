@@ -9,3 +9,4 @@ Authors: Sarah Jin, Jesse Gao
 3. Take note of which features are useful from Twilio and incorporate it to ours
 4. Replace Twilio with Google voice & selenium
 5. Try Auto Calls.
+6. Try Again.
